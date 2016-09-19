@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(EnvironmentConfig)" />
+  <PropertyGroup>
+    <GeneratedFromTemplate>BingConsoleApplication</GeneratedFromTemplate>
+    <ProjectGuid>{BA57A903-ED63-4668-A12D-33E1C586353E}</ProjectGuid>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AlterRankerEnsembleWeights</RootNamespace>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <StartupObject>AlterRankerEnsembleWeights.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <!--Assembly References-->
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <!--Project References-->
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="IniParser.cs" />
+    <Compile Include="Program.cs" />
+  </ItemGroup>
+  <!--TODO: Update the binplace settings for your project or remove this section if not needed.
+  <ItemGroup>
+    <Binplace Include="$(OutputPath)\$(TargetFileName)">
+      <DestinationFolder>$(BinplaceDistribPath)\app\SampleBinplaceTarget\</DestinationFolder>
+    </Binplace>
+  </ItemGroup> -->
+  <Import Project="$(ExtendedTargetsPath)\Microsoft.CSharp.targets" />
+</Project>
