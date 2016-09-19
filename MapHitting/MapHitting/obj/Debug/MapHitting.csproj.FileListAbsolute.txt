@@ -1,4 +1,0 @@
-c:\users\lihuang\documents\visual studio 2015\Projects\MapHitting\MapHitting\bin\Debug\MapHitting.dll
-c:\users\lihuang\documents\visual studio 2015\Projects\MapHitting\MapHitting\bin\Debug\MapHitting.pdb
-c:\users\lihuang\documents\visual studio 2015\Projects\MapHitting\MapHitting\obj\Debug\MapHitting.dll
-c:\users\lihuang\documents\visual studio 2015\Projects\MapHitting\MapHitting\obj\Debug\MapHitting.pdb
